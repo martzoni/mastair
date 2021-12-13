@@ -1,0 +1,87 @@
+body {
+  color: #3e3e3e !important;
+  font-family: 'Space Mono', monospace !important;
+  /* background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(hsla(0, 0%, 80%, 0.50) 0.95px, #ffffff 0.95px);
+  background-size: 24px 24px; */
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+}
+.text_gradient_blue {
+  background: -webkit-linear-gradient(90deg, rgb(40, 78, 246), rgb(59, 15, 154));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_green {
+  background: -webkit-linear-gradient(90deg, #00cdbc, #004f46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_orange {
+  background: -webkit-linear-gradient(90deg, #fda427, #f18400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_red {
+  background: -webkit-linear-gradient(90deg, #f51011, #9b1918);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.zero_space{
+  margin-top: -0.3em !important;
+  line-height: 1em;
+}
+
+
+.title1 {
+  line-height: 1em;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.title2 {
+
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.title3 {
+
+  font-size: 2em;
+  font-family: 'Space Mono', monospace;
+  color: #cfcfcf;
+}
+
+.card_grey {
+  background-color: white;
+  border-radius: 36px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.21);
+  padding: 6vw !important;
+}
+
+.banner_computer {
+  max-width: 90vw;
+  margin: auto;
+}
+
+@media screen and (max-width:960px){
+  .first{
+    order: 1;
+  }
+  .second{
+    order: 2;
+  }
+
+  .text_smaller{
+    font-size: 16px !important;
+  }
+}
